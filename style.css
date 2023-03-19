@@ -1,0 +1,39 @@
+body{
+    margin: auto 0;
+    background: #000;
+
+    display: flex;
+}
+
+div{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+div#blur-img{
+    background-image: url(city1.jpg);
+    filter: blur(20px);
+    /*position: fixed;*/
+
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+}
+
+div img{
+    height: 100vh;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside button{
+    margin: 0 20px 0 20px;
+}
